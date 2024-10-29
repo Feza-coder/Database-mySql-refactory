@@ -1,0 +1,11 @@
+CREATE DATABASE MEAL;
+use MEAL;
+Create table Ingredients (
+	Ingredient_ID INT auto_increment primary KEY,
+    Ingredient_Name Varchar (255),
+    Constaints_Luctose boolean,
+    Vegeterian boolean,
+    Vegan boolean,
+    Gluten_Free boolean
+);
+SELECT * from Ingredients;
